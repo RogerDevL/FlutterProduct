@@ -72,7 +72,7 @@ class gengibre extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 40, left: 100, bottom: 45),
+            padding: const EdgeInsets.only(top: 40, left: 30, bottom: 45),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [

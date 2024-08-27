@@ -29,7 +29,7 @@ class tomate extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(
               top: 30,
-              left: 50,
+              left: 0,
             ),
             child: Column(
               children: [
@@ -37,7 +37,12 @@ class tomate extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     )),
-                Text("1kg, price"),
+                Padding(
+                  padding: const EdgeInsets.only(right: 40.0),
+                  child: Text(
+                    "1kg, price",
+                  ),
+                ),
                 Padding(
                   padding: const EdgeInsets.only(top: 35),
                   child: Row(
@@ -72,7 +77,7 @@ class tomate extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 40, left: 100, bottom: 45),
+            padding: const EdgeInsets.only(top: 40, left: 30, bottom: 45),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
