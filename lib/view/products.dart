@@ -16,7 +16,7 @@ class Products extends StatelessWidget {
         title: Text("My Cart"),
         centerTitle: true,
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           children: [
             Padding(

@@ -29,7 +29,7 @@ class gengibre extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(
               top: 30,
-              left: 50,
+              left: 0,
             ),
             child: Column(
               children: [
